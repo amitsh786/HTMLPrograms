@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table{
+    height: 100%;
+  border:5px solid black;
+  width:50%;
+  background-color: pink;
+}
+.input{
+  text-align: center;
+  margin-right: 10%;
+}
+form{
+        margin-left: 10%;
+        margin-top: 5%;
+}
+</style>
+</head>
+<body>
+<form action="receive.html" method="get" onsubmit="">
+<div>
+  <table>
+    <caption><h1>Student Details<h1></caption>
+    <tr>
+      <th>First Name:</th>
+      <td><input type="text" name="firstname"></td>
+    </tr>
+    <tr>
+      <th>RollNo:<br></th>
+      <td><input type="number" name="rollno"></td>
+    </tr>
+    <tr>
+      <th>Age:</th>
+      <td><input type="number" name="age"></td>
+    </tr>
+    <tr>
+      <td>  <input class="input" align:"center" type="submit" value="submit"></td>
+    </tr>
+  </table>
+</div>
+</form>
+</body>
+</html>

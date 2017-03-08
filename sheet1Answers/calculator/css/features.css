@@ -1,0 +1,36 @@
+.input
+{
+  width:20%;
+  height:7%;
+  margin: 16px 16px 16px;
+
+}
+.ex
+{
+  border:5px solid black;
+  height:70%;
+  width:30%;
+  background-color: pink;
+}
+.position
+{
+  margin-right: 20px;
+  width:20%;
+  height:7%;
+  margin: 16px 16px 16px;
+}
+.selectbox
+{
+  width:43%;
+  height:7%;
+  margin: 16px 16px 16px;
+}
+.round
+{
+    border-radius: 10px;
+}
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}

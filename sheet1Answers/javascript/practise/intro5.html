@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <link rel="stylesheet" href="/home/bridgeit/Desktop/htmlpractise/javascript/style.css"> -->
+
+<style>
+.feature
+{
+  border:3px solid black;
+  height:100px;
+  width:100%;
+  background-color: pink;
+}
+.input
+{
+  height:5%;
+  width:10%;
+
+}
+.ex
+{
+  
+  text-align: center;
+  padding-right;
+  border:2px solid black;
+  height:550%;
+  width:355%;
+}
+</style>
+</head>
+<body>
+<div class="feature" >
+      <div class="input">
+
+            <input class="ex" type="text" id="tex" placeholder="Enter The Text"></input><br><br><br>
+            <button type="button" onclick="addMessage()" >Click Me!!!</button>
+      </div>
+</div>
+<script>
+function addMessage()
+{
+    var text  = document.getElementById("tex").value;
+    console.log(text);
+    alert("bridgelabz");
+}
+</script>
+
+</body>
+</html>

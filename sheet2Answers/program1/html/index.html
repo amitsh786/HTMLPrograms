@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="/home/bridgeit/Desktop/htmlpractise/sheet2Answers/program1/js/script.js"></script>
+<style>
+.input
+{
+  border:5px solid black;
+  width:60%;
+  height:60%;
+  background-color: pink;
+  color: red;
+}
+body{
+  background-image: url("my-shopping-list-QLD_Page_01.jpg");
+}
+
+</style>
+</head>
+<body >
+  <caption><h1 style="color:blue;">Shopping List</h1></caption>
+  <div class="input">
+     <label for="additem">AddItem:</label>
+     <input type="text" id="additem" size=28 placeholder="enter the item"><br><br>
+     <label for="quant">AddNoOfQuantity:</label>
+     <input type="number" id="quant" size=25 placeholder="enter the no of quantity"><br><br>
+      <input type="button" onclick="push1()" value="push">
+      <input type="button" onclick="pop1()" value="pop">
+      <input type="button" onclick="shift1()" value="shift">
+      <input type="button" onclick="unshift1()" value="unshift">
+
+  </div>
+
+  <h1 id="demo"></h1>
+    <p id="print"></p>
+</body>
+</html>
